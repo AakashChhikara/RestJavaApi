@@ -18,13 +18,20 @@
 	</properties>
 	<dependencies>
 
+	
+
 		<dependency>
-			<groupId>com.navercorp.pinpoint</groupId>
-			<artifactId>pinpoint-mysql-jdbc-driver-plugin</artifactId>
-			<version>2.3.3</version>
+    		<groupId>com.microsoft.sqlserver</groupId>
+    		<artifactId>mssql-jdbc</artifactId>
+    		<!-- <scope>runtime</scope> -->
 		</dependency>
 
-
+		<dependency>
+			<groupId>com.microsoft.sqlserver</groupId>
+			<artifactId>mssql-jdbc</artifactId>
+			<version>9.4.1.jre16</version>
+		</dependency>
+		
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
